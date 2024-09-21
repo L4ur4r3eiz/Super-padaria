@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef); /* Gradiente de fundo suave */
+    color: #333; /* Cor do texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+}
+
+header {
+    background-color: #fff; /* Fundo do cabeçalho */
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    border-bottom: 5px solid rgb(227, 228, 171); /* Linha inferior */
+    display: flex;
+   
+}
+
+
+header img {
+    max-width: 100px; /* Tamanho do logo */
+    display: flex;
+}
+
+h1 {
+    color: blueviolet; /* Cor do título */
+    font-size: 2.5em; /* Tamanho do título */
+    margin: 10px 0; /* Margens */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0;
+    text-align: right;
+    display: flex;
+    
+}
+
+nav ul li {
+    display: flex; /* Itens na mesma linha */
+    margin: 0 15px; /* Espaçamento entre itens */
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none; /* Remove sublinhado */
+    color: rgb(216, 211, 169); /* Cor dos links */
+    font-weight: bold; /* Negrito */
+    transition: color 0.3s; /* Transição suave */
+}
+
+nav a:hover {
+    color: #0a121b; /* Cor ao passar o mouse */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff; /* Fundo branco */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    margin-bottom: 20px; /* Espaçamento entre seções */
+}
+
+footer {
+    background-color: #fff; /* Fundo do rodapé */
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer address {
+    margin: 5px 0; /* Espaçamento entre parágrafos */
+    font-style: normal; /* Normaliza estilo */
+}
